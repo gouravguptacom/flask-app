@@ -9,3 +9,11 @@ pip freeze
 touch app.py
 python -m flask run
 ```
+
+### create requirements.txt
+
+```
+pip install flask
+python freeze > requirements.txt
+pip install -r requirements.txt
+```

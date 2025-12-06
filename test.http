@@ -1,0 +1,10 @@
+@url = http://localhost:5555
+
+###
+GET {{url}}
+
+###
+GET {{url}}/greet/gaurav
+
+###
+POST {{url}}/greet/gaurav

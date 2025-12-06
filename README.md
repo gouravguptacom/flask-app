@@ -18,3 +18,11 @@ pip install flask
 python freeze > requirements.txt
 pip install -r requirements.txt
 ```
+
+### db migration
+
+```
+flask db init <- do this once
+flask db migrate <- do this if any change in schema
+flask db upgrade <- do this if any change in schema
+```
